@@ -73,6 +73,7 @@ DeepSeek text models cannot see. These two plugins turn “looking” into calla
 - [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) — Select text → annotate → send with the message. Replies map back to each annotation — useful for review and precise feedback.
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — Let the agent operate a real OpenPencil canvas: preview, inspect, and edit multi-page `.op` documents instead of returning a single mock image.
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) — Pick elements in the built-in browser, write notes, tweak color/type/spacing, then have the agent patch workspace source from those annotations.
+- [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) - Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.
 
 ### Terminal, desktop, and distros
 
