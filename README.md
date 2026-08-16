@@ -73,6 +73,7 @@ DeepSeek 文本模型本身不能看图。下面两个插件把「看」做成�
 - [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) — 选中文字 → 批注 → 回车随消息发送；回复按 Annotation 逐条对照，适合审稿和精确反馈。
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — 让 Agent 操作真实 OpenPencil 设计画布：预览、检查、编辑多页 `.op` 文档，而不是只吐一张效果图。
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) — 内置浏览器里点选页面元素、写修改意见、临时改颜色字号间距；确认后 Agent 按批注改工作区源码。
+- [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。
 
 ### 终端、桌面与发行版
 
