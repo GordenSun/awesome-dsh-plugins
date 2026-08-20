@@ -130,7 +130,7 @@ DeepSeek 文本模型本身不能看图。下面两个插件把「看」做成�
 - [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) — Web GUI 里一键用 VS Code 打开当前工作区目录。
 - [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知：按成功 / 失败 / 等待等结果分别开关，并可用关键词包含或排除。
 - [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) — 跨 DSH 实例的消息与事件交接：一台机器上的会话可以把上下文递给另一台。
-- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 只读导入 Claude Code / Codex / ChatGPT / Cursor / Gemini / Reasonix / OpenCode 历史（含工具调用与思考块），在 DSH 里从断点继续聊。
+- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话，并支持反向导出/同步回 Claude Code。
 - [dsh-worktree](https://github.com/FlashingChen/dsh-worktree) — Codex 风格的永久 git worktree：一次创建、跨会话复用，主工作区不被打乱；提供 `worktree_create/list/remove` 和 `/worktree` 命令。
 
 ### 皮肤与分享
