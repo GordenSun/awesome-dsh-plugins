@@ -55,6 +55,8 @@ dsh plugin --profile web add "github:owner/repo"
 4. **同类只留代表作**——同一能力有多个实现时，优先选 DSH 原生、文档更好的那一个。
 
 ## 精选插件
+- [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) — 完整 reverse-skill（85 个 SKILL.md）的 DeepSeek Harness 插件：逆向工程、授权渗透测试与安全研究的技能路由包。
+- [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
 
 ### 视觉与多模态
 
