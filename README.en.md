@@ -97,6 +97,7 @@ The official surface is still mostly Web UI. These fill the terminal-native and 
 - [dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) — Adaptive deep research on the official workflow engine: define the answer space and acceptance criteria first, stop when expected information gain hits zero, optionally run an adversarial review against hallucinations.
 - [dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) — Condition-driven wakeup: watch files, commands, HTTP, processes, or webhooks and resume a dormant session when they fire. Subscriptions survive process restarts; a dock card shows what is on duty.
 - [dsh-message-edit](https://github.com/Moeblack/dsh-message-edit) — Event-log message editing, reroll, retry, and a version timeline — change an old prompt without replaying the whole thread.
+- [dsh-sieve](https://github.com/Sev7eEn7/sieve) — Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.
 
 ### Browser and computer use
 

@@ -99,6 +99,7 @@ DeepSeek 文本模型本身不能看图。下面两个插件把「看」做成�
 - [dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) — 基于官方 workflow 引擎的自适应深研：先定义答案空间和验收标准，再按边际信息增益决定要不要继续搜，可选对抗性审查压幻觉。
 - [dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) — 条件唤醒：监视文件 / 命令 / HTTP / 进程 / Webhook，条件成立就叫醒休眠会话。订阅能活过进程重启，输入框上方有值班面板。
 - [dsh-message-edit](https://github.com/Moeblack/dsh-message-edit) — 基于事件日志的消息编辑、reroll、retry 和版本时间线，改一句旧提示不必整段重来。
+- [dsh-sieve](https://github.com/Sev7eEn7/sieve) — 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪陈旧上下文并按需披露技能。
 
 ### 浏览器与电脑控制
 
