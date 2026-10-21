@@ -117,6 +117,7 @@ DeepSeek 文本模型本身不能看图。下面两个插件把「看」做成�
 
 ### 生态基建与开发
 
+- [dsh-plugin-android-preview](https://github.com/skyjjgw/dsh-plugin-android-preview) — 在聊天右侧直接操作真实 Android 模拟器；APK、包名、Activity 和 monorepo 源码目录可配置，Flutter 调试 APK 支持保存 Dart 热重载，普通 Android APK 可关闭 Flutter 模式。需已有 APK、模拟器、Android SDK 与 scrcpy 3.3.3，热重载另需 Flutter SDK；支持 Windows/macOS/Linux 启动路径，Windows 模拟器已验证。通过 `github:skyjjgw/dsh-plugin-android-preview#v0.2.0` 安装，Node 22.19+ / DSH 0.2.1-rc.2+；不自动下载 SDK 或构建 APK。
 - [plugin-registry](https://github.com/vlln/plugin-registry) — 薄控制台：在浏览器里看 profile 的 bundle 层栈、insert 行和启停；附带 `make-dsh-plugin` 引导，按官方格式写插件。
 - [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) — 直接问 DSH「有没有做 X 的插件」：搜索 `dsh-plugin` 主题、解释匹配项、等你点头后再安装并验收。
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) — 只读体检：清单协议、patch 格式、构建陷阱（cordis 双副本、tsconfig、产物残留 `.ts`）、hub 收录状态，给报告不改仓库。
