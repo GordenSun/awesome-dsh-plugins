@@ -115,6 +115,7 @@ The official surface is still mostly Web UI. These fill the terminal-native and 
 
 ### Ecosystem infrastructure
 
+- [dsh-plugin-android-preview](https://github.com/skyjjgw/dsh-plugin-android-preview) — Operate a real Android emulator beside the chat, with configurable APK, package, activity and monorepo source paths; Flutter debug APKs support Dart-save hot reload, while plain Android APKs can disable Flutter mode. Requires an existing APK/emulator, Android SDK and scrcpy 3.3.3, plus Flutter SDK for hot reload; Windows/macOS/Linux launch support, Windows emulator verified. Install `github:skyjjgw/dsh-plugin-android-preview#v0.2.0`, Node 22.19+ / DSH 0.2.1-rc.2+; no automatic SDK downloads or APK builds.
 - [plugin-registry](https://github.com/vlln/plugin-registry) — A thin console for the profile bundle stack, insert rows, and enable/disable, plus a `make-dsh-plugin` guide for the official format.
 - [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) — Ask DSH “is there a plugin for X?” It searches the `dsh-plugin` topic, explains matches, waits for your pick, then installs and verifies.
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) — Read-only health check: manifest protocol, patch shape, build traps (duplicate cordis, tsconfig, leftover `.ts` in artifacts), hub listing status. Reports only; never mutates the repo.
