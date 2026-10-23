@@ -122,6 +122,7 @@ The official surface is still mostly Web UI. These fill the terminal-native and 
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) — Author sandboxed JavaScript tools in a Monaco editor, with a model-driven create/update lifecycle.
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — Local read-only security audit: config, credential metadata, plugin provenance, path permissions, session files, network exposure. Redacted reports, no auto-fix, and “could not read” is never treated as “safe.”
 - [dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) — A bilingual 0-to-1 handbook: install, plugin development, performance, measured cases, same-model multi-agent comparisons. [Read online](https://electricitysheep.github.io/dsh-handbook/) or grab the PDF.
+- [dsh-mcp-tools](https://github.com/hxlog/dsh-mcp-tools) — MCP server and tool manager for DSH settings: streamable-http/stdio servers, Postman-style header rows, connectivity tests, and per-tool switches so disabled tools never reach the model.
 
 ### Integrations and migration
 
