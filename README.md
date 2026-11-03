@@ -124,6 +124,7 @@ DeepSeek 文本模型本身不能看图。下面两个插件把「看」做成�
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) — 在 Monaco 编辑器里写沙箱 JavaScript 工具，由模型驱动工具的创建、更新和生命周期。
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — 本机只读安全审计：配置、凭据元数据、插件来源、路径权限、会话文件、网络暴露面。脱敏报告，不自动修复，不把「没读到」当成「安全」。
 - [dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) — 从 0 到 1 的中英白皮书：安装、插件开发、性能调优、实测案例、同模型多 Agent 对比；有[在线版](https://electricitysheep.github.io/dsh-handbook/)和 PDF。
+- [dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) — 插件版本管理：在插件页加「版本」标签，换版本走 in-place 替换（不先卸载，bundle 一直加载），升级时显示阶段与 pnpm 原始日志并可取消，列出全部已发布版本并一键回滚，每个版本号都指向真实 release 页，镜像落后上游时标出缺口，安装源可选并写进 profile。
 
 ### 集成与迁移
 

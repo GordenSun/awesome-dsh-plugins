@@ -122,6 +122,7 @@ The official surface is still mostly Web UI. These fill the terminal-native and 
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) — Author sandboxed JavaScript tools in a Monaco editor, with a model-driven create/update lifecycle.
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — Local read-only security audit: config, credential metadata, plugin provenance, path permissions, session files, network exposure. Redacted reports, no auto-fix, and “could not read” is never treated as “safe.”
 - [dsh-handbook](https://github.com/Electricitysheep/dsh-handbook) — A bilingual 0-to-1 handbook: install, plugin development, performance, measured cases, same-model multi-agent comparisons. [Read online](https://electricitysheep.github.io/dsh-handbook/) or grab the PDF.
+- [dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) — Plugin version management for the Plugins page: in-place upgrades that never uninstall the bundle, live phase and raw pnpm output with cancel, the full published version history with one-click rollback, mirror-gap warnings, and a selectable npm registry saved in the profile.
 
 ### Integrations and migration
 
