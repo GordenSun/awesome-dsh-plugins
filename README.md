@@ -91,6 +91,7 @@ DeepSeek 文本模型本身不能看图。下面两个插件把「看」做成�
 - [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) — 把一次性多 Agent 调度升级成可生成、可保存、可治理、可观察、可恢复的 Workflow 层（对标 KodaX）。原生 `workflow` 工具负责「这一次并行跑完」；它负责流程资产本身。
 - [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) — 跨会话五轨长期记忆、git 分支感知、技能自我进化、四轨待办、COI 调度、会话广播。默认大量能力关闭，避免撑爆工具清单。
 - [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) — Mnemon 与 DSH 的深度集成：运行时热记忆、可阅读的项目档案、按需召回的长期记忆体，三层都受监督、可检索。
+- [memory-lattice](https://github.com/Lumivox-wiz/memory-lattice) — 忆枢：把遗忘做成默认行为。短期层 48 小时自然过期，只有被反复命中的才按 SM-2 曲线晋升长期层，久未使用沉入可唤醒的沉睡区；长期写入一律停在审核中心等人工批准，Agent 不能自己给自己授权记忆。纯本地 SQLite，含 3D 记忆云图与加密增量备份。
 - [dsh-sidechain](https://github.com/Buyi-wsgzg/dsh-sidechain) — `/side` 持续性侧会话（Codex 风格）与 `/btw` 一次性侧问（Claude 风格），在临时 fork 里跑，不写入主会话历史。
 - [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) — 以消息为锚点回退对话和工程文件。底层 Change Ledger 先做恢复点，再预览路径级漂移，最后在对话框里确认全量或选择性还原。
 - [allinluna](https://github.com/zenx0x/allinluna) — 资源感知的多 Agent 编排：一个大目标拆成可并行的顶层任务，任务内再递归调用子代理 / 工具 / MCP，避免整仓塞进同一段对话。
