@@ -115,6 +115,7 @@ The official surface is still mostly Web UI. These fill the terminal-native and 
 
 ### Ecosystem infrastructure
 
+- [dsh-remote](https://github.com/flymysql/dsh-remote) — SSH remote workspaces for DSH with parallel projects across hosts, file browsing and editing, recursive search, terminals, Git diffs, and Agent tools to edit, build and test remotely. Optional IDE layout.
 - [plugin-registry](https://github.com/vlln/plugin-registry) — A thin console for the profile bundle stack, insert rows, and enable/disable, plus a `make-dsh-plugin` guide for the official format.
 - [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) — Ask DSH “is there a plugin for X?” It searches the `dsh-plugin` topic, explains matches, waits for your pick, then installs and verifies.
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) — Read-only health check: manifest protocol, patch shape, build traps (duplicate cordis, tsconfig, leftover `.ts` in artifacts), hub listing status. Reports only; never mutates the repo.
