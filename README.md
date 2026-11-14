@@ -117,6 +117,7 @@ DeepSeek 文本模型本身不能看图。下面两个插件把「看」做成�
 
 ### 生态基建与开发
 
+- [dsh-remote](https://github.com/flymysql/dsh-remote) — DSH 的 SSH 远程工作区：多主机项目并行、文件浏览与编辑、递归搜索、终端、Git 差异，以及 Agent 远程编辑、构建与测试；可选 IDE 布局。
 - [plugin-registry](https://github.com/vlln/plugin-registry) — 薄控制台：在浏览器里看 profile 的 bundle 层栈、insert 行和启停；附带 `make-dsh-plugin` 引导，按官方格式写插件。
 - [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) — 直接问 DSH「有没有做 X 的插件」：搜索 `dsh-plugin` 主题、解释匹配项、等你点头后再安装并验收。
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) — 只读体检：清单协议、patch 格式、构建陷阱（cordis 双副本、tsconfig、产物残留 `.ts`）、hub 收录状态，给报告不改仓库。
