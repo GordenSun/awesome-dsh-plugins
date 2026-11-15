@@ -130,6 +130,7 @@ The official surface is still mostly Web UI. These fill the terminal-native and 
 - [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) — Cross-instance message and event handoff so one DSH session can pass context to another.
 - [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — Read-only import of Claude Code, Codex, ChatGPT, Cursor, Gemini, Reasonix, and OpenCode histories (tool calls and thinking blocks included) so you can resume inside DSH.
 - [dsh-worktree](https://github.com/FlashingChen/dsh-worktree) — Codex-style permanent git worktrees: create once, reuse across sessions, leave the main tree alone. Ships `worktree_create/list/remove` and a `/worktree` command.
+- [Biz Assistant](https://github.com/ITC-cloud-soft/biz-ai) — Nine plugins that put a DSH agent inside a business system (inspections, billing, leave requests…): reminders, approval cards and drafted proposals in each employee's own chat; the AI reads and proposes, people approve; a 52-check conformance suite; `pnpm demo` needs no API key.
 
 ### Skins and sharing
 
