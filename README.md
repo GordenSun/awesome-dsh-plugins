@@ -132,6 +132,7 @@ DeepSeek 文本模型本身不能看图。下面两个插件把「看」做成�
 - [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) — 跨 DSH 实例的消息与事件交接：一台机器上的会话可以把上下文递给另一台。
 - [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话，并支持反向导出/同步回 Claude Code。
 - [dsh-worktree](https://github.com/FlashingChen/dsh-worktree) — Codex 风格的永久 git worktree：一次创建、跨会话复用，主工作区不被打乱；提供 `worktree_create/list/remove` 和 `/worktree` 命令。
+- [Biz Assistant](https://github.com/ITC-cloud-soft/biz-ai) — 把 DSH agent 接进业务系统（巡检、请款、请假……）的 9 个插件：员工在自己的聊天工具里收到提醒、审批卡片和起草的提案；AI 只读和提案，审批由人决定；附带 52 项业务侧一致性测试，`pnpm demo` 不需要 API key。
 
 ### 皮肤与分享
 
